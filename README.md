@@ -1,8 +1,6 @@
 # Auto-Approve-Bot
 👾 Hey I'll Accept telegram join requests. Easy to use and simple.
 
-## 🚀 Demo Bot
-- [@AutorequestapprovalBot](https://telegram.dog/AutorequestapprovalBot)
 
 <h2>〽️ Deploy Me </h2> 
   
