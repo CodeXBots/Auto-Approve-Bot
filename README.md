@@ -39,3 +39,7 @@
 ### 💫 Credits
  -  [Me](https://youtube.com/@NobiDeveloper) for Nothing 😅
  - [Repo owner](https://telegram.dog/MovieVillaYT) complete credits of Repo
+
+## 📌 𝑵𝒐𝒕𝒆 
+
+ᴊᴜꜱᴛ ꜰᴏʀᴋ ᴛʜᴇ ʀᴇᴘᴏ ᴀɴᴅ ᴇᴅɪᴛ ᴀꜱ ᴘᴇʀ ʏᴏᴜʀ ɴᴇᴇᴅꜱ.
