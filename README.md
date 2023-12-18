@@ -37,8 +37,8 @@
   - `MONGO_URI` - Mongodb database here
   
 ### 💫 Credits
- -  [Me](https://youtube.com/@NobiDeveloper) for Nothing 😅
- - [Repo owner](https://telegram.dog/MovieVillaYT) complete credits of Repo
+ -  [Me](https://github.com/NobiDeveloper) for Nothing 😅
+ - [Repo owner](https://youtube.com/@NobiDeveloper) complete credits of Repo
 
 ## 📌 𝑵𝒐𝒕𝒆 
 
