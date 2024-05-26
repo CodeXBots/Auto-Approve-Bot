@@ -37,8 +37,8 @@
   - `MONGO_URI` - Mongodb database here
   
 ### 💫 Credits
- -  [Me](https://github.com/CodeXBots) for Nothing 😅
- - [Repo owner](https://youtube.com/@RahulReviews) complete credits of Repo
+ -  [Me](https://telegram.me/CodeXBro) for Nothing 😅
+ - [Repo owner](https://github.com/CodeXBots) complete credits of Repo
 
 ## 📌 𝑵𝒐𝒕𝒆 
 
