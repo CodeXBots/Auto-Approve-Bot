@@ -6,20 +6,20 @@
   
 <details><summary>📌 Deploy to Heroku </summary>
   
-<a href="https://heroku.com/deploy?template=https://github.com/NobiDeveloper/Auto-Approve-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
+<a href="https://heroku.com/deploy?template=https://github.com/CodeXBots/Auto-Approve-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
 </details>
 
   
 <details><summary>📌 Deploy to Okteto </summary>
   
-[![Deploy on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/NobiDeveloper/Auto-Approve-Bot/)
+[![Deploy on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/CodeXBots/Auto-Approve-Bot/)
 </details>
 
 <details><summary>📌 Deploy to VPS/Local </summary>
 
 
   ```ssh
-  git clone https://github.com/NobiDeveloper/Auto-Approve-Bot
+  git clone https://github.com/CodeXBots/Auto-Approve-Bot
   pip3 install -r requirements.txt
   # fill config.py vars
   python3 bot.py
@@ -37,8 +37,8 @@
   - `MONGO_URI` - Mongodb database here
   
 ### 💫 Credits
- -  [Me](https://github.com/NobiDeveloper) for Nothing 😅
- - [Repo owner](https://youtube.com/@NobiDeveloper) complete credits of Repo
+ -  [Me](https://github.com/CodeXBots) for Nothing 😅
+ - [Repo owner](https://youtube.com/@RahulReviews) complete credits of Repo
 
 ## 📌 𝑵𝒐𝒕𝒆 
 
