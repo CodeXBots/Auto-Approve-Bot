@@ -48,7 +48,7 @@ async def op(_, m :Message):
                         InlineKeyboardButton("🗯 Channel", url="https://telegram.me/RahulReviews"),
                         InlineKeyboardButton("💬 Support", url="https://telegram.me/CodeXSupport")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/Shizuka_filter_bot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/RahulReviewsYT")
                     ]
                 ]
             )
@@ -59,7 +59,7 @@ async def op(_, m :Message):
             keyboar = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://telegram.me/Shizuka_filter_bot?start=start")
+                        InlineKeyboardButton("💁‍♂️ Start me private 💁‍♂️", url="https://telegram.me/RahulReviewsYT")
                     ]
                 ]
             )
@@ -92,7 +92,7 @@ async def chk(_, cb : CallbackQuery):
                         InlineKeyboardButton("🗯 Channel", url="https://telegram.me/RahulReviews"),
                         InlineKeyboardButton("💬 Support", url="https://telegram.me/CodeXSupport")
                     ],[
-                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/Shizuka_filter_bot?startgroup")
+                        InlineKeyboardButton("➕ Add me to your Chat ➕", url="https://telegram.me/RahulReviewsYT")
                     ]
                 ]
             )
