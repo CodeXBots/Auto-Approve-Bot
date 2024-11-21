@@ -2,6 +2,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 from pyrogram import filters, Client, enums, errors
 from pyrogram.errors import UserNotParticipant, PeerIdInvalid, UserIsBlocked
 from CodeXBots.database import rkn_botz
+from CodeXBots.fsub import force_sub
 from configs import rkn1
 import random, asyncio, os
 
@@ -22,6 +23,7 @@ async def approve_request(bot, m):
 @Client.on_message(filters.command("start"))
 async def command(bot, m: Message):
     await rkn_botz.add_user(bot, m)
+    await force_sub(bot, m, rkn1.FORCE_SUB)
     await m.reply_text(f"{m.from_user.mention},\n\n𝖨 𝖼𝖺𝗇 𝖺𝗎𝗍𝗈𝗆𝖺𝗍𝗂𝖼𝖺𝗅𝗅𝗒 𝖺𝗉𝗉𝗋𝗈𝗏𝖾 𝗎𝗌𝖾𝗋𝗌 𝗂𝗇 𝖼𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖺𝗇𝖽 𝗀𝗋𝗈𝗎𝗉𝗌.\n\n𝖩𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗂𝗇 𝗒𝗈𝗎𝗋 𝖼𝗁𝖺𝗇𝗇𝖾𝗅𝗌 𝖺𝗇𝖽 𝗀𝗋𝗈𝗎𝗉𝗌 𝗐𝗂𝗍𝗁 𝗉𝖾𝗋𝗆𝗂𝗌𝗌𝗂𝗈𝗇 𝗍𝗈 𝖺𝖽𝖽 𝗇𝖾𝗐 𝗆𝖾𝗆𝖻𝖾𝗋𝗌.\n\nᴅᴇᴠᴇʟᴏᴘᴇʀ : @CodeXBro",
                         reply_markup=InlineKeyboardMarkup([[
                             InlineKeyboardButton("⇆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘs ⇆", url=f"https://telegram.me/{bot.username}?startgroup=Bots4Sale&admin=invite_users+manage_chat"),
