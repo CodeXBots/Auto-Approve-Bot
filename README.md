@@ -42,8 +42,24 @@ restart - Send Message All Users In Bot & Bot Restart & Re-Deploy Server.
   - `ADMIN` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space.
 </details>
 
+### 🥳 CREDIT
 
- ## ❣️Thanks To
- 
-- Thanks To [RknDeveloper](https://github.com/RknDeveloper) who have edited and modified this repo as now it is. (It's me 😂)
+<details><summary>Tap On Me For Credit</summary>
 
+
+💝 [CodeXBots](https://github.com/CodeXBots)
+
+💞[RknDeveloper](https://github.com/RknDeveloper)
+</details>
+
+### 💕 CONTACT DEVELOPER
+
+- [Rahul](https://telegram.me/CodeXBro)
+
+### ☕ BUY ME A COFFEE
+- [PayPal](https://paypal.me/RahulReviews)
+- [UPI](https://codexbots.github.io/Donate)
+
+### 📌 NOTE
+
+𝘊𝘰𝘱𝘺𝘪𝘯𝘨 𝘰𝘳 𝘚𝘦𝘭𝘭𝘪𝘯𝘨 𝘵𝘩𝘪𝘴 𝘳𝘦𝘱𝘰 𝘪𝘴 𝘴𝘵𝘳𝘪𝘤𝘵𝘭𝘺 𝘱𝘳𝘰𝘩𝘪𝘣𝘪𝘵𝘦𝘥.</b>
