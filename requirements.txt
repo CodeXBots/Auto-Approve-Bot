@@ -1,3 +1,0 @@
-pyrogram
-TgCrypto
-pymongo[srv]
