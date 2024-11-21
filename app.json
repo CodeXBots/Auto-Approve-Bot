@@ -22,6 +22,10 @@
     "BOT_TOKEN": {
       "description": "Enter your Bot token, get it from @BotFather",
       "required": true
+    }, 
+    "FORCE_SUB": {
+      "description": "Enter your Force Subscribe chat id.",
+      "required": true
     },
     "LOG_CHANNEL": {
       "description": "Enter your log channel id ",
