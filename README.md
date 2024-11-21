@@ -10,9 +10,13 @@
 
 <details><summary>Tap On Me For Bot Features</summary>
 - I can automatically approve join request in channel Or groups. 
-- Just add me with add members permission in your channel Or group.
+ 
+ - Just add me with add members permission in your channel Or group.
+
 - Fully modified repo
+
 - Deploy To Koyeb + Heroku + Railway + Render + VPS + Okteto
+
 - Developer Service 24x7.
 </details>
 
