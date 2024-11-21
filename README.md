@@ -1,55 +1,47 @@
-<h2>〽️ Deploy Me </h2> 
+<h1 align="center">
+ <b><a href="" target="/blank">Auto Approve Bot</a>
+</h1>
 
-<details><summary>📌 Deploy to Render </summary>
-  
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/CodeXBots/Auto-Approve-bot)
+<p align="center">🩷 Thanks for Being Here 🩷</p>
 
-</details>
-  
-<details><summary>📌 Deploy to Heroku </summary>
-  
-<a href="https://heroku.com/deploy?template=https://github.com/CodeXBots/Auto-Approve-bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"></p></a>
-</details>
 
-<details><summary>📌 Deploy to Railway </summary>
-  
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/w7jSPk)
-</details>
-  
-<details><summary>📌 Deploy to Okteto </summary>
-  
-[![Deploy on Okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/CodeXBots/Auto-Approve-bot/)
+
+### 🥰 FEATURES
+
+<details><summary>Tap On Me For Bot Features</summary>
+- I can automatically approve join request in channel Or groups. 
+- Just add me with add members permission in your channel Or group.
+- Fully modified repo
+- Deploy To Koyeb + Heroku + Railway + Render + VPS + Okteto
+- Developer Service 24x7.
 </details>
 
-<details><summary>📌 Deploy to VPS/Local </summary>
+### 😍 COMMANDS
 
-
-  ```ssh
-  git clone https://github.com/CodeXBots/Auto-Approve-bot
-  pip3 install -r requirements.txt
-  # fill config.py vars
-  python3 bot.py
-  ```
-
-</details>
-
-## 🏷 Environment Variables #
-  - `API_ID` - Your Telegram API ID.Get it [Here](my.telegram.org)
-  - `API_HASH` - Your Telegram API HASH.Get it [Here](my.telegram.org)
-  - `DB_URL` - Add MongoDB Database URI.
-  - `DB_NAME` - Add Mongodb Database Name.
-  - `BOT_USERNAME` - Add Bot Username.
-  - `BOT_TOKEN` - Your Bot Token. Get it from [Here](https://t.me/BotFather)
-  - `LOG_CHANNEL` - Bot Logs Sending Channel. If You Don't Need This To Remove This Variable In Your Server
-  - `ADMIN` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space.
-
-  Available Commond:-
-  ```
+<b><details><summary>Tap On Me For Commands</summary>
+```
 start - Check Bot Alive.
 stats - Check Bot Status.
 broadcast - Broadcast Massage Send All Users In Bot.
 restart - Send Message All Users In Bot & Bot Restart & Re-Deploy Server.
 ```
+</b>
+</details>
+
+### 🔥 VARIABLES
+
+<details><summary>Tap On Me For Environment Variable</summary>
+
+  - `API_ID` - Your Telegram API ID.Get it [Here](https://youtu.be/RdMY6Lqfi9w)
+  - `API_HASH` - Your Telegram API HASH.Get it [Here](https://youtu.be/RdMY6Lqfi9w))
+  - `DB_URL` - Mongodb [Database](https://youtu.be/pMJpHoiu1go)
+  - `DB_NAME` - Add Mongodb Database Name.
+  - `BOT_USERNAME` - Add Bot Username.
+  - `BOT_TOKEN` - Get From [BotFather](https://youtu.be/aJILCCXfNVM)
+  - `LOG_CHANNEL` - Bot Logs Sending Channel. If You Don't Need This To Remove This Variable In Your Server
+  - `ADMIN` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space.
+</details>
+
 
  ## ❣️Thanks To
  
