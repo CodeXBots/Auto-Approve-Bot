@@ -9,7 +9,8 @@
 ### 🥰 FEATURES
 
 <details><summary>Tap On Me For Bot Features</summary>
-- I can automatically approve join request in channel Or groups. 
+
+ - I can automatically approve join request in channel Or groups. 
  
  - Just add me with add members permission in your channel Or group.
 
