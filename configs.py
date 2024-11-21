@@ -8,7 +8,8 @@ class Config:
  
     ADMIN = list(map(int, getenv("ADMIN", "").split()))
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
-    
+    FORCE_SUB = int(getenv("FORCE_SUB", ""))
+
     # database configs
     DB_URL = os.environ.get("DB_URL", "")
     DB_NAME = os.environ.get("DB_NAME", "")
