@@ -15,6 +15,8 @@
  - Just add me with add members permission in your channel Or group.
 
 - Fully modified repo
+- Force Sub available
+- Broadcast available
 
 - Deploy To Koyeb + Heroku + Railway + Render + VPS + Okteto
 
