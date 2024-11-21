@@ -46,6 +46,7 @@ restart - Send Message All Users In Bot & Bot Restart & Re-Deploy Server.
   - `BOT_USERNAME` - Add Bot Username.
   - `BOT_TOKEN` - Get From [BotFather](https://youtu.be/aJILCCXfNVM)
   - `LOG_CHANNEL` - Bot Logs Sending Channel. If You Don't Need This To Remove This Variable In Your Server
+  - `FORCE_SUB` - Your Force subscribe channel id
   - `ADMIN` - bot owners Id/ ids ( for broadcast and stats cmds). for multiple use space.
 </details>
 
