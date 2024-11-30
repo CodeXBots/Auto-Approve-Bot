@@ -54,28 +54,46 @@ async def restart_bot(b, m):
     
 @Client.on_message(filters.command("broadcast") & filters.user(rkn1.ADMIN) & filters.reply)
 async def broadcast_handler(bot: Client, m: Message):
-    await bot.send_message(rkn1.LOG_CHANNEL, f"{m.from_user.mention} or {m.from_user.id} Iꜱ ꜱᴛᴀʀᴛᴇᴅ ᴛʜᴇ Bʀᴏᴀᴅᴄᴀꜱᴛ......")
-    all_users = await rkn_botz.get_all_users()
     broadcast_msg = m.reply_to_message
-    sts_msg = await m.reply_text("Bʀᴏᴀᴅᴄᴀꜱᴛ Sᴛᴀʀᴛᴇᴅ..!") 
-    done = 0
-    failed = 0
-    success = 0
-    start_time = time.time()
+    if not broadcast_msg:
+        await m.reply_text("Please reply to a message to broadcast.")
+        return
+
+    await bot.send_message(rkn1.LOG_CHANNEL, f"{m.from_user.mention} or {m.from_user.id} started the broadcast.")
+    all_users = await rkn_botz.get_all_users()
     total_users = await rkn_botz.total_users_count()
-    async for user in all_users:
+
+    sts_msg = await m.reply_text("Broadcast started...")
+    success, failed, done = 0, 0, 0
+    start_time = time.time()
+
+    for user in all_users:
         sts = await send_msg(user['_id'], broadcast_msg)
         if sts == 200:
-           success += 1
+            success += 1
         else:
-           failed += 1
-        if sts == 400:
-           await rkn_botz.delete_user(user['_id'])
+            failed += 1
+            if sts == 400:
+                await rkn_botz.delete_user(user['_id'])
+
         done += 1
-        if not done % 20:
-           await sts_msg.edit(f"Bʀᴏᴀᴅᴄᴀꜱᴛ Iɴ Pʀᴏɢʀᴇꜱꜱ: \nTᴏᴛᴀʟ Uꜱᴇʀꜱ {total_users} \nCᴏᴍᴩʟᴇᴛᴇᴅ: {done} / {total_users}\nSᴜᴄᴄᴇꜱꜱ: {success}\nFᴀɪʟᴇᴅ: {failed}")
-    completed_in = datetime.timedelta(seconds=int(time.time() - start_time))
-    await sts_msg.edit(f"Bʀᴏᴀᴅᴄᴀꜱᴛ Cᴏᴍᴩʟᴇᴛᴇᴅ: \nCᴏᴍᴩʟᴇᴛᴇᴅ Iɴ `{completed_in}`.\n\nTᴏᴛᴀʟ Uꜱᴇʀꜱ {total_users}\nCᴏᴍᴩʟᴇᴛᴇᴅ: {done} / {total_users}\nSᴜᴄᴄᴇꜱꜱ: {success}\nFᴀɪʟᴇᴅ: {failed}")
+        if not done % 50:  # Update every 50 users
+            await sts_msg.edit(
+                f"Broadcast In Progress:\n"
+                f"Total Users: {total_users}\n"
+                f"Completed: {done}/{total_users}\n"
+                f"Success: {success}\nFailed: {failed}"
+            )
+
+    completed_in = str(datetime.timedelta(seconds=int(time.time() - start_time)))
+    await sts_msg.edit(
+        f"Broadcast Completed:\n"
+        f"Completed In: `{completed_in}`\n"
+        f"Total Users: {total_users}\n"
+        f"Completed: {done}/{total_users}\n"
+        f"Success: {success}\nFailed: {failed}"
+    )
+
            
 async def send_msg(user_id, message):
     try:
