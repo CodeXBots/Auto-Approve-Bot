@@ -1,0 +1,4 @@
+pyrofork
+tgcrypto
+dnspython
+motor
