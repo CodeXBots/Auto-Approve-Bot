@@ -50,9 +50,9 @@ broadcast - Broadcast Massage Send All Users In Bot.
 <details><summary>Tap On Me For Credit</summary>
 
 
-💝 [TechifyBots](https://github.com/TechifyBots)
+💖 [TechifyBots](https://github.com/TechifyBots)
 
-💞[RknDeveloper](https://github.com/RknDeveloper)
+💞 [MrMKN](https://github.com/MrMKN)
 </details>
 
 ### 💕 CONTACT DEVELOPER
