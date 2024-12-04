@@ -1,5 +1,0 @@
-pyrofork
-TgCrypto
-motor
-aiohttp
-pytz
